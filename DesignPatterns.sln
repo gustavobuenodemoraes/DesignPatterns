@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Strategy", "DesignPatterns.Strategy\DesignPatterns.Strategy.csproj", "{18E2C808-91C9-4F05-956C-00B92BF84837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Strategy", "DesignPatterns.Strategy\DesignPatterns.Strategy.csproj", "{18E2C808-91C9-4F05-956C-00B92BF84837}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{18F33046-192E-40E0-B7FF-A5A015B91BF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain Of Responsibility", "Chain Of Responsibility", "{7DD88126-B62D-49C1-8398-9F5AC46FAAA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ChainOfResponsibility", "DesignPatterns.ChainOfResponsibility\DesignPatterns.ChainOfResponsibility.csproj", "{CC140385-6872-44B4-87D9-21395D2F978F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Domain", "DesignPatterns.Domain\DesignPatterns.Domain.csproj", "{F1F5A2AA-14B4-4ECB-B477-B1AEC9AA8A33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template Method", "Template Method", "{C741B0FC-C437-4260-B8E3-8AEA70FB9ED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.TemplateMethod", "DesignPatterns.TemplateMethod\DesignPatterns.TemplateMethod.csproj", "{C750F9EA-5809-4B58-82E5-DF0E398BE1F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +27,26 @@ Global
 		{18E2C808-91C9-4F05-956C-00B92BF84837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18E2C808-91C9-4F05-956C-00B92BF84837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18E2C808-91C9-4F05-956C-00B92BF84837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC140385-6872-44B4-87D9-21395D2F978F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC140385-6872-44B4-87D9-21395D2F978F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC140385-6872-44B4-87D9-21395D2F978F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC140385-6872-44B4-87D9-21395D2F978F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F5A2AA-14B4-4ECB-B477-B1AEC9AA8A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F5A2AA-14B4-4ECB-B477-B1AEC9AA8A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F5A2AA-14B4-4ECB-B477-B1AEC9AA8A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F5A2AA-14B4-4ECB-B477-B1AEC9AA8A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C750F9EA-5809-4B58-82E5-DF0E398BE1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C750F9EA-5809-4B58-82E5-DF0E398BE1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C750F9EA-5809-4B58-82E5-DF0E398BE1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C750F9EA-5809-4B58-82E5-DF0E398BE1F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{18E2C808-91C9-4F05-956C-00B92BF84837} = {18F33046-192E-40E0-B7FF-A5A015B91BF2}
+		{CC140385-6872-44B4-87D9-21395D2F978F} = {7DD88126-B62D-49C1-8398-9F5AC46FAAA4}
+		{C750F9EA-5809-4B58-82E5-DF0E398BE1F7} = {C741B0FC-C437-4260-B8E3-8AEA70FB9ED1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BA96099-AE01-4862-9DC0-5161DD8DEDDB}

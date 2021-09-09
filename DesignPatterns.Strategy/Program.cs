@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.Strategy
+﻿using DesignPatterns.Domain;
+
+namespace DesignPatterns.Strategy
 {
     class Program
     {
@@ -7,7 +9,7 @@
             Imposto iss = new ISS();
             Imposto icms = new ICMS();
             Imposto iccc = new ICCC();
-            Orcamento orcamento = new Orcamento(1500.0);
+            var orcamento = new Orcamento(1500.0);
             var calculador = new CalculadorDeImpostos();
 
             // Calculando o ISS

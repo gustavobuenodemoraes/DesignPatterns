@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatterns.Domain;
+using System;
 
 namespace DesignPatterns.Strategy
 {

@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.Strategy
+﻿using DesignPatterns.Domain;
+
+namespace DesignPatterns.Strategy
 {
     public class ICMS : Imposto
     {
